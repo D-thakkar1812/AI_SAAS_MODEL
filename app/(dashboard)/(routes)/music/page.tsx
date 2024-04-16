@@ -19,7 +19,7 @@ import { useProModal } from "@/hooks/use-promodal-ui";
 import {toast} from "react-hot-toast";
 
 
-const music = ()=>{
+const MusicPage = ()=>{
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),
         defaultValues:{
@@ -120,4 +120,4 @@ const music = ()=>{
     );
 }
 
-export default music;
+export default MusicPage;

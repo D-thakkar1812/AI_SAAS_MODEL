@@ -21,7 +21,7 @@ import {toast} from "react-hot-toast";
 
 
 
-const video = ()=>{
+const VideoPage = ()=>{
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),
         defaultValues:{
@@ -122,4 +122,4 @@ const video = ()=>{
     );
 }
 
-export default video;
+export default VideoPage ;
